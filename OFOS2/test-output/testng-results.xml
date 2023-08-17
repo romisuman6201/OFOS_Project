@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Admin_AddRest=======Testscript Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Admin_AddRest=======Testscript failed]]>
+    </line>
+    <line>
+      <![CDATA[addMenu=======Testscript Execution started]]>
+    </line>
+    <line>
+      <![CDATA[addMenu=======Testscript Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-10T13:15:33 IST" name="Suite" finished-at="2023-08-10T13:16:03 IST" duration-ms="30798">
+    <groups>
+      <group name="Smoke">
+        <method signature="AddMenuTestNG_Test.addMenu()[pri:0, instance:AdminModule.AddMenuTestNG_Test@59fd97a8]" name="addMenu" class="AdminModule.AddMenuTestNG_Test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-08-10T13:15:33 IST" name="Test" finished-at="2023-08-10T13:16:03 IST" duration-ms="30798">
+      <class name="AdminModule.Admin_AddRestaurant_TestNGTest">
+        <test-method is-config="true" signature="Config_BS()[pri:0, instance:AdminModule.Admin_AddRestaurant_TestNGTest@1ab3a8c8]" started-at="2023-08-10T13:15:32 IST" name="Config_BS" finished-at="2023-08-10T13:15:33 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_BS -->
+        <test-method is-config="true" signature="Config_BC()[pri:0, instance:AdminModule.Admin_AddRestaurant_TestNGTest@1ab3a8c8]" started-at="2023-08-10T13:15:33 IST" name="Config_BC" finished-at="2023-08-10T13:15:36 IST" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_BC -->
+        <test-method is-config="true" signature="Config_BM()[pri:0, instance:AdminModule.Admin_AddRestaurant_TestNGTest@1ab3a8c8]" started-at="2023-08-10T13:15:36 IST" name="Config_BM" finished-at="2023-08-10T13:15:39 IST" duration-ms="2972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_BM -->
+        <test-method signature="Admin_AddRest()[pri:0, instance:AdminModule.Admin_AddRestaurant_TestNGTest@1ab3a8c8]" started-at="2023-08-10T13:15:39 IST" name="Admin_AddRest" finished-at="2023-08-10T13:15:51 IST" duration-ms="11745" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at AdminModule.Admin_AddRestaurant_TestNGTest.Admin_AddRest(Admin_AddRestaurant_TestNGTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Admin_AddRest=======Testscript Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Admin_AddRest=======Testscript failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Admin_AddRest -->
+        <test-method is-config="true" signature="Config_AM()[pri:0, instance:AdminModule.Admin_AddRestaurant_TestNGTest@1ab3a8c8]" started-at="2023-08-10T13:15:51 IST" name="Config_AM" finished-at="2023-08-10T13:15:52 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_AM -->
+        <test-method is-config="true" signature="Config_AC()[pri:0, instance:AdminModule.Admin_AddRestaurant_TestNGTest@1ab3a8c8]" started-at="2023-08-10T13:15:52 IST" name="Config_AC" finished-at="2023-08-10T13:15:53 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_AC -->
+        <test-method is-config="true" signature="Config_AS()[pri:0, instance:AdminModule.Admin_AddRestaurant_TestNGTest@1ab3a8c8]" started-at="2023-08-10T13:16:04 IST" name="Config_AS" finished-at="2023-08-10T13:16:04 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_AS -->
+      </class> <!-- AdminModule.Admin_AddRestaurant_TestNGTest -->
+      <class name="AdminModule.AddMenuTestNG_Test">
+        <test-method is-config="true" signature="Config_BC()[pri:0, instance:AdminModule.AddMenuTestNG_Test@59fd97a8]" started-at="2023-08-10T13:15:53 IST" name="Config_BC" finished-at="2023-08-10T13:15:55 IST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_BC -->
+        <test-method is-config="true" signature="Config_BM()[pri:0, instance:AdminModule.AddMenuTestNG_Test@59fd97a8]" started-at="2023-08-10T13:15:55 IST" name="Config_BM" finished-at="2023-08-10T13:15:56 IST" duration-ms="1294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_BM -->
+        <test-method signature="addMenu()[pri:0, instance:AdminModule.AddMenuTestNG_Test@59fd97a8]" started-at="2023-08-10T13:15:56 IST" name="addMenu" finished-at="2023-08-10T13:16:02 IST" duration-ms="5906" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[addMenu=======Testscript Execution started]]>
+            </line>
+            <line>
+              <![CDATA[addMenu=======Testscript Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addMenu -->
+        <test-method is-config="true" signature="Config_AM()[pri:0, instance:AdminModule.AddMenuTestNG_Test@59fd97a8]" started-at="2023-08-10T13:16:02 IST" name="Config_AM" finished-at="2023-08-10T13:16:03 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_AM -->
+        <test-method is-config="true" signature="Config_AC()[pri:0, instance:AdminModule.AddMenuTestNG_Test@59fd97a8]" started-at="2023-08-10T13:16:03 IST" name="Config_AC" finished-at="2023-08-10T13:16:03 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_AC -->
+      </class> <!-- AdminModule.AddMenuTestNG_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
